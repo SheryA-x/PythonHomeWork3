@@ -16,11 +16,16 @@ a = [10, 5, 7, 3, 3, 0, 5, 7, 2, 8]
 num = int(input("Введите число"))
 index = 0
 
-for i in a:
-    if i == num:
-        index += 1
+#for i in a:
+#    if i == num:
+#        index += 1
 
-if index == 0:
+#if index == 0:
+#    print (-1)
+#else:
+#    print (index)
+
+if a.count(num) == 0:
     print (-1)
 else:
-    print (index)
+    print (a.count(num))
