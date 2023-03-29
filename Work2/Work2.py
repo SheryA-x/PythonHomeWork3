@@ -11,12 +11,12 @@ a = [10, 5, 7, 3, 3, 2, 5, 7, 3, 8]
 num = int(input("Введите число"))
 index = 0
 
-for i in a-1:
-    if a[i] == num:
-        index = i
-        print(i, index)
-        break
-    else:
-        index += 1
+#for i in a-1:
+#    if a[i] == num:
+#        index = i
+#        print(i, index)
+#        break
+#    else:
+#        index += 1
         
-print (index)
+#print (index)
